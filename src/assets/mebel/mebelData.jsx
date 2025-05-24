@@ -1,6 +1,6 @@
-import m1 from "./IMG_2599.png"
-import m2 from "./IMG_2270.png"
-import m3 from "./IMG_2266.png"
+import m1 from "./IMG_2599.jpg"
+import m2 from "./IMG_2270.jpg"
+import m3 from "./IMG_2266.jpg"
 
 export const mebelData = [
     {
