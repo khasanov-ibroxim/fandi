@@ -1,0 +1,114 @@
+.home_s1_text{
+    padding: 0 20px;
+}
+.home_s1_box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.home_s1_box_item {
+    width: 48%;
+    display: flex;
+    gap: 20px;
+    height: 80px;
+}
+
+.home_s1_box_item h3 {
+    text-wrap: nowrap;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.home_s1_box_item img {
+    width: 35px;
+    height: 35px;
+}
+
+.home_s1_text h1 {
+    font-size: 54px;
+    font-weight: 700;
+    color: black;
+}
+
+.home_s1_text p {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--desc_color);
+}
+
+.home_s1_contact_box {
+    display: flex;
+    align-items: center;
+
+    gap: 100px;
+}
+
+.home_s1_contact_box a:first-child {
+    background: #c3002f;
+    padding: 15px 20px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    transition: .4s;
+}
+
+.home_s1_contact_box a:first-child:hover {
+    background: black;
+    color: white;
+}
+
+.home_s1_contact_box .home_s1_contact_box_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.home_s1_contact_box .home_s1_contact_box_item p {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--desc_color);
+}
+
+.home_s1_contact_box .home_s1_contact_box_item a {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+
+}
+
+.home_s1_img {
+    width: 100%;
+    height: 500px;
+    -webkit-mask-image: url(../../../../assets/home/home_s1/shape-bg.svg);
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center center;
+    object-fit: contain;
+}
+
+@media screen  and (max-width: 1000px) {
+    .home_s1_img {
+        margin-left: 0;
+    }
+    .home_s1_box_item h3{
+        font-size: 13px;
+    }
+    .home_s1_contact_box{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .home_s1_box_item{
+        gap: 5px;
+    }
+}
