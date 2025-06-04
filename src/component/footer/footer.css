@@ -19,7 +19,7 @@ footer{
     color: #FFFFFF;
 }
 .footer_element{
-
+cursor: pointer;
     height: 60px;
     width: 120px;
     border-radius: 150px 150px 0 0 !important;

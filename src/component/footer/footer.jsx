@@ -11,9 +11,10 @@ const Footer = () => {
     return (
         <footer className={"main_container"}>
             <div className="footer_box">
-                <div className="footer_element">
-                    <ArrowOutwardIcon/>
+                <div className="footer_element" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                    <ArrowOutwardIcon />
                 </div>
+
                 <div className="footer_title">
                     LET'S BUILD TOGETHER
                 </div>
