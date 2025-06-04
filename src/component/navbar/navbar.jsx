@@ -1,14 +1,15 @@
-import React, { useEffect, useState } from 'react';
-import "./navbar.css";
-import { Link } from "react-router-dom";
-import logo from "./logo-dark.svg";
-
+import React, {useEffect, useState} from 'react';
+import "./navbar.css"
+import logo from "./logoDark.svg"
+import {Link} from "react-router-dom";
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import CloseIcon from '@mui/icons-material/Close';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar = () => {
+
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isMobile, setIsMobile] = useState(window.matchMedia('(max-width: 1000px)').matches);
-    const [scrollDirection, setScrollDirection] = useState('up');
-    const [atTop, setAtTop] = useState(true);
 
     useEffect(() => {
         const handleResize = (e) => {
@@ -17,54 +18,36 @@ const Navbar = () => {
 
         const windowMatch = window.matchMedia('(max-width: 1000px)');
         windowMatch.addEventListener('change', handleResize);
+
+
         return () => windowMatch.removeEventListener('change', handleResize);
     }, []);
-
-    // Scroll event
-    useEffect(() => {
-        let lastScrollY = window.scrollY;
-
-        const handleScroll = () => {
-            const currentScrollY = window.scrollY;
-            if (currentScrollY > lastScrollY && currentScrollY > 100) {
-                setScrollDirection('down');
-            } else {
-                setScrollDirection('up');
-            }
-            setAtTop(currentScrollY < window.innerHeight); // 100vh dan kichik bo‘lsa true
-            lastScrollY = currentScrollY;
-        };
-
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
-
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
-
     return (
-        <nav className={`navbar ${scrollDirection === 'down' ? 'navbar--hidden' : ''} ${atTop ? 'navbar--transparent' : 'navbar--solid'}`}>
-            <div className={"nav_full_box current-container"}>
-                <div className="nav_top_for_home">
-                    <div className="nav_logo">
-                        <img src={logo} alt="Logo" />
-                    </div>
+        <nav className={"main_container"}>
+            <div className="navbar">
+                <div className="nav_logo">
+                    <img src={logo} alt="logo"/>
                 </div>
                 <div className={`nav_menu ${isMenuOpen ? 'open' : ''}`}>
                     <ul>
-                        <li><Link to={"#"}>главная</Link></li>
-                        <li><Link to={"#"}>производство</Link></li>
-                        <li><Link to={"#"}>продукция</Link></li>
+                        <li><Link to={"#"}>Home</Link></li>
+                        <li><Link to={"#"}>Pages</Link></li>
+                        <li><Link to={"#"}>Service</Link></li>
+                        <li><Link to={"#"}>Projects</Link></li>
+                        <li><Link to={"#"}>Blog</Link></li>
+                        <li><Link to={"#"}>Contact Us</Link></li>
                     </ul>
                 </div>
-                <div className="nav_end">
-                    <div className="lang_nav" style={isMobile ? { display: "none" } : { display: "flex" }}>
-                        <Link to={"#"} className="nav_end_btn">Contact</Link>
-                    </div>
-                    <div className="navburger" onClick={toggleMenu}>
-                        {isMenuOpen ? "close" : "menu"}
-                    </div>
+                <div className="nav_btn">
+                    {isMobile ? <div className="navburger" onClick={toggleMenu}>
+                        {isMenuOpen ? <CloseIcon/> : <MenuIcon/>}
+                    </div> :
+                        <button>Get in touch <ArrowForwardIcon/></button>
+                    }
+
                 </div>
             </div>
         </nav>

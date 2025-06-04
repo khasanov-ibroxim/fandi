@@ -1,16 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #FEF8F0;
+    background: #FEF8F0 !important;
+}
+*{
+    font-family: "Merriweather", serif;
+}
+:root{
+    --border_color:rgb(213, 213, 213);
+    --desc_color:RGB(112, 112, 112);
+}
+.main_container{
+    margin-left: 50px;
+    margin-right: 50px;
+    border-left: 1px solid rgb(213, 213, 213);
+    border-right: 1px solid rgb(213, 213, 213);
+    overflow: hidden;
 }
 
-.current_container{
-    margin: 0 auto;
-    padding: 0 30px;
-    box-sizing: border-box;
-    max-width: 1450px;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    overflow: hidden;
+@media screen and (max-width: 1200px){
+    .main_container{
+        margin: 0 !important;
+    }
 }
