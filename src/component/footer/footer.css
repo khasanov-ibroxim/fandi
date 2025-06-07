@@ -1,8 +1,9 @@
-footer{
+footer {
     padding-top: 100px;
     padding-bottom: 50px;
 }
-.footer_box{
+
+.footer_box {
     background: #000000;
     width: 100%;
     padding-bottom: 100px;
@@ -14,12 +15,14 @@ footer{
     flex-direction: column;
     gap: 20px;
 }
-.footer_element svg{
+
+.footer_element svg {
     font-size: 50px;
     color: #FFFFFF;
 }
-.footer_element{
-cursor: pointer;
+
+.footer_element {
+    cursor: pointer;
     height: 60px;
     width: 120px;
     border-radius: 150px 150px 0 0 !important;
@@ -36,7 +39,8 @@ cursor: pointer;
     z-index: 0 !important;
     background: black;
 }
-.footer_element:before{
+
+.footer_element:before {
     position: absolute;
     content: '';
     height: 89px;
@@ -48,7 +52,8 @@ cursor: pointer;
     bottom: -31px;
     z-index: -1;
 }
-.footer_element:after{
+
+.footer_element:after {
     position: absolute;
     content: '';
     height: 89px;
@@ -61,7 +66,7 @@ cursor: pointer;
     z-index: -1;
 }
 
-.footer_title{
+.footer_title {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -72,78 +77,89 @@ cursor: pointer;
     font-weight: 700;
 }
 
-.footer_content{
+.footer_content {
     width: 80%;
 }
-.footer_item_1 h1{
+
+.footer_item_1 h1 {
     font-size: 18px;
     color: #FFFFFF;
 }
-.footer_item_1 p{
+
+.footer_item_1 p {
     font-size: 16px;
     color: #515151;
     text-decoration: none;
 }
-.footer_item_1 a{
+
+.footer_item_1 a {
     font-size: 16px;
     color: #515151;
     text-decoration: none;
 }
-.footer_item_1 a:hover{
+
+.footer_item_1 a:hover {
     transition: .4s;
-    color:#c3002f;
+    color: #c3002f;
 
 }
 
-.footer_item_2_box{
+.footer_item_2_box {
     display: flex;
     justify-content: flex-start;
     gap: 50px;
     width: 100%;
 
 }
-.footer_item_2_box ul{
+
+.footer_item_2_box ul {
     list-style: none;
     display: flex;
     gap: 10px;
     flex-direction: column;
     width: 50%;
 }
-.footer_item_2_box ul li a{
+
+.footer_item_2_box ul li a {
     text-decoration: none;
     color: #515151;
     text-wrap: nowrap;
 }
-.footer_item_2_box ul li a:hover{
+
+.footer_item_2_box ul li a:hover {
     color: #c3002f;
     transition: .4s;
 }
-.footer_item_3_box{
+
+.footer_item_3_box {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.footer_item_3_box .tell{
+
+.footer_item_3_box .tell {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 24px;
 }
-.footer_item_3_box .tell:hover{
+
+.footer_item_3_box .tell:hover {
     color: #c3002f;
-    transition: .4s ;
+    transition: .4s;
 }
-.footer_item_3_box a{
+
+.footer_item_3_box a {
     color: #515151;
     text-decoration: none;
 }
 
 
-.footer_element:hover .footer_element svg  , .footer_element svg:hover {
+.footer_element:hover .footer_element svg, .footer_element svg:hover {
     transform: rotate(-45deg);
     transition: all .4s ease-in-out !important;
 }
 
-.footer_item_4_box{
+.footer_item_4_box {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -152,19 +168,23 @@ cursor: pointer;
     margin-top: 10px;
 
 }
-.footer_item_4_box svg{
+
+.footer_item_4_box svg {
     color: #515151;
 }
-.footer_item_4_box svg:hover{
+
+.footer_item_4_box svg:hover {
     color: white;
     transition: .4s;
 }
-@media screen and (max-width: 1000px){
-    .footer_title{
+
+@media screen and (max-width: 1000px) {
+    .footer_title {
         text-align: center;
         font-size: 30px;
     }
-    .footer_item_3_box .tell{
+
+    .footer_item_3_box .tell {
         font-size: 16px;
     }
 }

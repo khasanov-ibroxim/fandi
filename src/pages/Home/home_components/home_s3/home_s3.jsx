@@ -16,13 +16,12 @@ const HomeS3 = () => {
                 <div className="home_s3_box_title" data-aos="fade-right">
                     <div className="subtitle_box">
                         <span></span>
-                        <h2>Our project</h2>
+                        <h2>Что мы делаем</h2>
                     </div>
                     <div className="home_s3_title">
-                        <h1>Don’t take our word, see our portfolio</h1>
-                        <p>It is additionally connected with the production of clothes. The crude material of textiles
-                            is the fiber which might be regular regenerated.there are various textures with the
-                            distinctive feel and requirements, we utilize various kinds of fabrics relying on climate
+                        <h1>Полный цикл текстильного производства</h1>
+                        <p>Производим футболки, майки, туники, поло, толстовки, спортивные брюки, трусы, шорты и многое другое.
+                            Свыше 100 000 изделий в месяц, более 100 единиц современного оборудования и 1000 м² производственной площади в Ташкентской области, Узбекистан.
                         </p>
                     </div>
                 </div>

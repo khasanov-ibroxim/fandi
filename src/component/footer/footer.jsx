@@ -16,14 +16,14 @@ const Footer = () => {
                 </div>
 
                 <div className="footer_title">
-                    LET'S BUILD TOGETHER
+                    Держим связь всегда
                 </div>
                 <div className="footer_content">
                     <div className="row d-flex justify-content-between">
                         <div className="col-12 col-md-6 col-lg-5 mb-4">
                             <div className="subtitle_box">
                                 <span style={{ background: "white" }}></span>
-                                <h2 style={{ color: "white" }}>Our About</h2>
+                                <h2 style={{ color: "white" }}>О нас</h2>
                             </div>
                             <div className="footer_item_1_box d-flex flex-column flex-md-row g-4 mt-3">
                                 <div className="footer_item_1 me-md-5 mb-3 mb-md-0">
@@ -65,14 +65,16 @@ const Footer = () => {
                                 <h2 style={{ color: "white" }}>Our About</h2>
                             </div>
                             <div className="footer_item_3_box mt-3">
-                                <a href={"#"} className={"tell"}>+998 99 000 00 00</a>
-                                <Link to="#">Office@fandi.uz</Link>
+                                <a href={"tel:+998337004000"} className={"tell"}>+998337004000</a>
+                                <a href={"tel:+998935718328"} className={"tell"}>+998935718328</a>
+                                <Link to="mailto:marketing@fanditeks.uz">marketing@fanditeks.uz </Link>
+                                <Link to="mailto:fanditeks@hotmail.com">fanditeks@hotmail.com </Link>
                             </div>
                             <div className="footer_item_4_box">
                                 <a href="#"><InstagramIcon/></a>
-                                <a href="#"><TelegramIcon/></a>
+                                <a href="https://t.me/fanditeks"><TelegramIcon/></a>
                                 <a href="#"><FacebookIcon/></a>
-                                <a href="#"><WhatsAppIcon/></a>
+                                <a href="https://wa.me/+998935718328"><WhatsAppIcon/></a>
                             </div>
                         </div>
                     </div>

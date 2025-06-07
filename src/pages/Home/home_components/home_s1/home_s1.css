@@ -48,7 +48,7 @@
     gap: 100px;
 }
 
-.home_s1_contact_box a:first-child {
+.home_s1_contact_box .home_s1_contact_box_btn {
     background: #c3002f;
     padding: 15px 20px;
     border-radius: 25px;
@@ -57,9 +57,10 @@
     font-weight: 700;
     font-size: 16px;
     transition: .4s;
+    text-wrap: nowrap;
 }
 
-.home_s1_contact_box a:first-child:hover {
+.home_s1_contact_box .home_s1_contact_box_btn:hover {
     background: black;
     color: white;
 }

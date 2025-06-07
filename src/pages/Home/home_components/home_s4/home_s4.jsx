@@ -9,20 +9,20 @@ const HomeS4 = () => {
         <div className={"home_s4 container-fluid"}>
             <div className="home_s4_box" >
                 <div className="home_s4_left">
-                    <h1>Have An <span >idea?</span> <br/>
-                        Let’s <span>Get</span> In Touch</h1>
+                    <h1>Есть идея? <br/>
+                        Свяжитесь с нами!</h1>
                     <div className="home_s4_contact_box">
-                        <a href="#">+998 99 000 00 00</a>
-                        <a href="#">office@fandi.uz</a>
+                        <a href="tel:+998337004000">+998337004000</a>
+                        <a href="mailto:marketing@fanditeks.uz">marketing@fanditeks.uz </a>
+                        <a href="mailto:fanditeks@hotmail.com">fanditeks@hotmail.com</a>
                     </div>
                 </div>
                 <div className="home_s4_right">
                     <p>
-                        Purus aliquam ac aliquet fringilla volutpat cursus phasellus mi ultrices imperdiet turpis duis
-                        quam aliquam lorem.
+                        Мы всегда готовы обсудить ваши задачи и предложить лучшие решения в сфере текстильного производства.
                     </p>
-                    <p>Rated 4.7 out of 5 based on over 1000+ Reviews all over the world</p>
-                    <Link to={"#"}>Get in touch <ArrowForwardIcon/></Link>
+
+                    <Link to={"#"}>Связаться с нами <ArrowForwardIcon/></Link>
                 </div>
             </div>
         </div>

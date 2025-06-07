@@ -20,34 +20,40 @@ const HomeS1 = () => {
                     <div className="home_s1_text">
                         <div className="subtitle_box">
                             <span></span>
-                            <h2>Our About</h2>
+                            <h2>О нас</h2>
                         </div>
-                        <h1>We Bringing a Change in the Textile</h1>
-                        <p>We are continually looking to improve all aspects of the manufacturing process -from our
-                            entire cycle manufacturing to packaging and shipping.</p>
+                        <h1>Полный цикл пошива под ваш бренд</h1>
+                        <p>Мы производим женскую, мужскую, детскую и корпоративную трикотажную одежду на заказ — от идеи до готового изделия.</p>
                         <div className="home_s1_box">
                             <div className="home_s1_box_item">
                                 <img src={mashinka_icon} alt=""/>
-                                <h3>Textiles Materials</h3>
+                                <h3>Широкий <br/> ассортимент</h3>
                             </div>
                             <div className="home_s1_box_item">
                                 <img src={material_icon} alt=""/>
-                                <h3>Create Your Design</h3>
+                                <h3>Высокие <br/> объёмы</h3>
                             </div>
                             <div className="home_s1_box_item">
                                 <img src={material_detal_icon} alt=""/>
-                                <h3>Rayon Fabric</h3>
+                                <h3>Современное <br/> оборудование</h3>
                             </div>
                             <div className="home_s1_box_item">
                                 <img src={stanok_icon} alt=""/>
-                                <h3>Fabric Treated</h3>
+                                <h3>Собственное <br/> производство</h3>
                             </div>
                         </div>
                         <div className="home_s1_contact_box">
-                            <Link to={"#"}>Read More <ArrowForwardIcon/></Link>
+                            <Link to={"#"} className={"home_s1_contact_box_btn"}>Контакты <ArrowForwardIcon/></Link>
                             <div className="home_s1_contact_box_item">
-                                <p>Call Us Anytime</p>
-                                <a href="#">+00 123 456789</a>
+                                <p>Телефон</p>
+                                <div style={{
+                                    display:"flex",
+                                    gap:"10px"
+                                }}>
+                                    <a href="tel:+998337004000">+998337004000</a>
+                                    <a href="tel:+998935718328">+998935718328</a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
