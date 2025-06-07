@@ -1,6 +1,6 @@
 nav{
     padding-top: 50px;
-
+    padding-bottom: 20px;
 }
 .navbar{
     width: 100%;
@@ -10,6 +10,9 @@ nav{
     display: flex;
     justify-content: space-between;
     position: fixed;
+}
+.nav_logo{
+    padding-left: 10px;
 }
 .nav_logo , .nav_btn{
     width: 15%;

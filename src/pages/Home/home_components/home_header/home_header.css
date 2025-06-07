@@ -30,7 +30,7 @@
 
 .h-header_left h1{
     color: #000;
-    font-size: 85px;
+    font-size: 64px;
     font-weight: 700;
 }
 .h-header_left p{
@@ -61,7 +61,7 @@
     left: 35%;
     top: 10%;
     width: 30% !important;
-    height: 600px;
+    height: 450px;
     border-radius: 25px;
 }
 .home_header_element img{
