@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import "./navbar.css"
-import logo from "./logoDark.svg"
+import logo from "./logo.png"
 import {Link} from "react-router-dom";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import CloseIcon from '@mui/icons-material/Close';
