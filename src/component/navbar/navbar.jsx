@@ -33,19 +33,18 @@ const Navbar = () => {
                 </div>
                 <div className={`nav_menu ${isMenuOpen ? 'open' : ''}`}>
                     <ul>
-                        <li><Link to={"#"}>Home</Link></li>
-                        <li><Link to={"#"}>Pages</Link></li>
-                        <li><Link to={"#"}>Service</Link></li>
-                        <li><Link to={"#"}>Projects</Link></li>
-                        <li><Link to={"#"}>Blog</Link></li>
-                        <li><Link to={"#"}>Contact Us</Link></li>
+                        <li><Link to={"#"}>Главная</Link></li>
+                        <li><Link to={"#"}>О нас</Link></li>
+                        <li><Link to={"#"}>Производство</Link></li>
+                        <li><Link to={"#"}>Блог</Link></li>
+                        <li><Link to={"#"}>Контакты</Link></li>
                     </ul>
                 </div>
                 <div className="nav_btn">
                     {isMobile ? <div className="navburger" onClick={toggleMenu}>
                         {isMenuOpen ? <CloseIcon/> : <MenuIcon/>}
                     </div> :
-                        <button>Get in touch <ArrowForwardIcon/></button>
+                        <button>Связаться <ArrowForwardIcon/></button>
                     }
 
                 </div>

@@ -23,7 +23,7 @@ const HomeS1 = () => {
                             <h2>О нас</h2>
                         </div>
                         <h1>Полный цикл пошива под ваш бренд</h1>
-                        <p>Мы производим женскую, мужскую, детскую и корпоративную трикотажную одежду на заказ — от идеи до готового изделия.</p>
+                        <p>Мы производим женскую, мужскую, детскую и корпоративную трикотажную одежду на заказ.</p>
                         <div className="home_s1_box">
                             <div className="home_s1_box_item">
                                 <img src={mashinka_icon} alt=""/>
@@ -31,7 +31,7 @@ const HomeS1 = () => {
                             </div>
                             <div className="home_s1_box_item">
                                 <img src={material_icon} alt=""/>
-                                <h3>Высокие <br/> объёмы</h3>
+                                <h3>Большие <br/> объёмы</h3>
                             </div>
                             <div className="home_s1_box_item">
                                 <img src={material_detal_icon} alt=""/>
