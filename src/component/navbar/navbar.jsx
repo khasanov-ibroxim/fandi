@@ -5,6 +5,7 @@ import {Link} from "react-router-dom";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
+import {CONTACT, HOME} from "@/utils/constes.jsx";
 
 const Navbar = () => {
 
@@ -33,11 +34,11 @@ const Navbar = () => {
                 </div>
                 <div className={`nav_menu ${isMenuOpen ? 'open' : ''}`}>
                     <ul>
-                        <li><Link to={"#"}>Главная</Link></li>
+                        <li><Link to={HOME}>Главная</Link></li>
                         <li><Link to={"#"}>О нас</Link></li>
                         <li><Link to={"#"}>Производство</Link></li>
                         <li><Link to={"#"}>Блог</Link></li>
-                        <li><Link to={"#"}>Контакты</Link></li>
+                        <li><Link to={CONTACT}>Контакты</Link></li>
                     </ul>
                 </div>
                 <div className="nav_btn">

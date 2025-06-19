@@ -6,7 +6,8 @@ body{
     background: #FEF8F0 !important;
 }
 *{
-    font-family: "Merriweather", serif;
+    font-family: "Merriweather", sans-serif;
+    transition: .4s;
 }
 :root{
     --border_color:rgb(213, 213, 213);
