@@ -1,0 +1,124 @@
+.a2_left_title{
+    padding: 50px 20px;
+}
+.a2_left_title h2{
+    font-size: 54px;
+    color: black;
+    font-weight: 700;
+}
+.a2_left_title p{
+    font-size: 16px;
+    color: #707070;
+    font-weight: 400;
+}
+
+.a2_left_content{
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+.a2_left_group_btn{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 10px;
+}
+.a2_left_item{
+    width: 160px;
+    height: 30px;
+    background: #000;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: nowrap;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.a2_left_item.active {
+    background: #c3002f;
+    z-index: 2;
+}
+.a2_left_item_content{
+    width: 70%;
+    min-height: 400px;
+    background: #FDF2E3;
+    position: relative;
+    left: 100px;
+    top: -20px;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(0, 0 , 0 , .2);
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.a2_left_item_content p{
+    color: #707070;
+    font-size: 16px;
+}
+.a2_left_item_content img{
+    width: 70px;
+    height: 70px;
+}
+
+.a2_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.a2_left_item_content a{
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    border-radius: 25px;
+    border: black 1px solid;
+    width: max-content;
+    padding: 15px 35px;
+    text-decoration: none;
+}
+.a2_left_item_content a:hover{
+    background: black;
+    color: white;
+}
+
+.a2_right .home_s1_img{
+    height: 90%;
+}
+
+@media screen and (max-width: 1250px){
+    .a2_left_item_content{
+        padding: 30px 70px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .a2_left_content{
+        flex-direction: column;
+    }
+    .a2_left_item_content{
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        min-height: auto;
+    }
+    .a2_left_group_btn , .a2_left_item_content{
+        position: static;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .a2_left_item{
+        width: 100%;
+    }
+}

@@ -1,0 +1,104 @@
+.a3{
+    width: 100%;
+    height: 50vh;
+    background: black;
+    border-radius: 100px;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+
+
+}
+.a3_box{
+    margin-top: 100px;
+    padding-top: 50px;
+    border-top: 1px solid var(--border_color);
+}
+.a3_opacity{
+    position: absolute;
+    background: url("@/assets/about/about_s3/bgpattern.png") no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.a3_img{
+    width: 350px;
+    height: 90%;
+    position: absolute;
+    /*left: 50%;*/
+    right: 40%;
+    margin-top: 30px;
+}
+.a3_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.a3_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    height: 100%;
+
+    color: white;
+    width: 100%;
+}
+.a3_right{
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.a3_left{
+    padding-left: 40px;
+}
+
+.a3_left h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+.a3_left p{
+    font-size: 16px;
+    color: #D5D5D5;
+    font-weight: 400;
+}
+.a3_right p{
+    font-size: 16px;
+    color: #D5D5D5;
+    font-weight: 400;
+}
+
+.a3_right a{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+.a3_swiper{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+}
+
+.a3_swiper_item{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1000px){
+    .a3_img , .a3_content , .a3_left , .a3_right{
+        position: static;
+        height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+
+    .a3{
+        height: 100vh;
+    }
+}
