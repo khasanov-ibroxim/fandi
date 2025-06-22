@@ -7,6 +7,7 @@ import img_4 from "@/assets/about/about_s2/volokna.png"
 import bgImg from "@/assets/about/about_s2/aboutsec1.png";
 import {Link} from "react-router-dom"
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import {CONTACT} from "@/utils/constes.jsx";
 
 
 const AboutS2 = () => {
@@ -15,27 +16,28 @@ const AboutS2 = () => {
     const items = [
         {
             id: 1,
-            icon: img_1,
-            title: "Fabric Dyeing",
-            text: `Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut unde omnis iste natus error sit accusantiumtotam rem aperiam, eaque ab illo inventore veritatis et quasi vitae dicta sunt explicabo.`
+            icon: img_2,
+            title: `Индивидуальный  подход`,
+            text: `Мы изготавливаем экспериментальные образцы, разрабатываем лекала по размерному ряду и предлагаем подбор ткани под заказанный цвет. Все изделия могут быть адаптированы под желаемый фасон, размер, маркировку и дизайн. Минимальный тираж — от 750 единиц на модель и цвет. `
         },
         {
             id: 2,
-            icon: img_2,
-            title: "Digital Printing",
-            text: `Depending on the product characteristics, functional requirements and end-use applications the highly diversified range of technical textile products have been classified into 12 segments. Fabric is made of yarn which is made from different kinds of fibers. Some yarn is made of a single particular fiber but some are a blend.`
+            icon: img_1,
+            title: "Полный цикл",
+            text: `Мы предлагаем полный спектр услуг: от выбора пряжи и окрашивания полотна до пошива готовой продукции. В нашем распоряжении более 100 единиц современного оборудования и цех площадью 1000 м². Это позволяет выпускать свыше 100 000 изделий ежемесячно. Каждое изделие проходит поэтапный контроль качества для соответствия требованиям клиента. `
         },
+
         {
             id: 3,
             icon: img_3,
-            title: "Fabric Treated",
-            text: `Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut unde omnis iste natus error sit accusantiumtotam rem aperiam, eaque ab illo inventore veritatis et quasi vitae dicta sunt explicabo.`
+            title: "Контроль качества",
+            text: `Наша команда экспертов контролирует качество с самого начала: от подбора хлопчатобумажного полотна до финальной упаковки изделия. Используем только проверенные материалы и технологии, соответствующие международным стандартам. Каждое изделие проверяется на соответствие заданным параметрам. Мы стремимся не просто соответствовать ожиданиям — мы их превосходим.`
         },
         {
             id: 4,
             icon: img_4,
-            title: "Satin Weaving",
-            text: `Depending on the product characteristics, functional requirements and end-use applications the highly diversified range of technical textile products have been classified into 12 segments. Fabric is made of yarn which is made from different kinds of fibers. Some yarn is made of a single particular fiber but some are a blend.`
+            title: "Гарантия результата",
+            text: `Мы не просто шьём, мы создаём продукт, за который готовы отвечать. Оперативная обратная связь, прозрачная логистика и точное соблюдение сроков — основа нашей репутации. Многолетний опыт и профессионализм команды делают нас надёжным партнёром. Работая с FANDI TEKS, вы получаете уверенность в результате.`
         }
     ];
 
@@ -48,11 +50,11 @@ const AboutS2 = () => {
                     <div className="col-lg-7">
                         <div className="a2_left">
                             <div className="a2_left_title">
-                                <h2>The Textile, Product, And Apparel Manufacturing Industries.</h2>
-                                <p>We utilize various kinds of fabrics relying on climate. So essentially there are
-                                    various textures with the distinctive feel and requirements. There is another word
-                                    utilized for fabrics called textiles that confounds many. The crude material of
-                                    textiles is the fiber which might be regular, man-made, or regenerated.</p>
+                                <h2>Заказ под ключ</h2>
+                                <p>ООО FANDI TEKS — это современная швейная и трикотажная фабрика в Узбекистане. Мы
+                                    специализируемся на производстве женской, мужской, детской и корпоративной одежды
+                                    под ключ. Наш подход объединяет гибкость индивидуального подхода и мощные
+                                    производственные мощности.</p>
                             </div>
                             <div className="a2_left_content">
                                 <div className="a2_left_group_btn">
@@ -61,15 +63,16 @@ const AboutS2 = () => {
                                             key={item.id}
                                             className={`a2_left_item ${activeContent === item.id ? "active" : ""}`}
                                             onClick={() => setActiveContent(item.id)}
+                                            dangerouslySetInnerHTML={{__html:item.title}}
                                         >
-                                            {item.title}
+
                                         </div>
                                     ))}
                                 </div>
                                 <div className="a2_left_item_content">
                                     <img src={activeItem?.icon} alt="FANDI"/>
                                     <p>{activeItem?.text}</p>
-                                    <Link to={"#"}>Explore service <ArrowForwardIcon/></Link>
+                                    <Link to={CONTACT}>Свяжитесь  <ArrowForwardIcon/></Link>
                                 </div>
                             </div>
                         </div>

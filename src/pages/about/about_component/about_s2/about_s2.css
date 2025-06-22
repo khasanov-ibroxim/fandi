@@ -28,7 +28,7 @@
     top: 10px;
 }
 .a2_left_item{
-    width: 160px;
+    width: 200px;
     height: 30px;
     background: #000;
     color: #FFFFFF;
@@ -41,6 +41,9 @@
     border-radius: 25px;
     cursor: pointer;
 }
+.a2_left_item:first-child{
+    width: 260px;
+}
 .a2_left_item.active {
     background: #c3002f;
     z-index: 2;
@@ -51,7 +54,7 @@
     background: #FDF2E3;
     position: relative;
     left: 100px;
-    top: -20px;
+    top: -10px;
     border-radius: 25px;
     box-shadow: 0 0 15px rgba(0, 0 , 0 , .2);
     padding: 50px 100px;
@@ -101,7 +104,7 @@
     }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
     .a2_left_content{
         flex-direction: column;
     }
@@ -119,6 +122,6 @@
         align-items: center;
     }
     .a2_left_item{
-        width: 100%;
+        width: 100% !important;
     }
 }

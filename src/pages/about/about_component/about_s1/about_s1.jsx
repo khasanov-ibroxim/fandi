@@ -18,10 +18,9 @@ const AboutS1 = () => {
                         <div className="a1_right">
                             <img src={img_2} alt=""/>
                             <div className="a1_right_text">
-                                <h1>Who We Are</h1>
-                                <p>It is additionally connected with the production of clothes. The crude material of
-                                    textiles is the fiber which might be regular, man-made, or regenerated.
-                                </p>
+                                <h1>Надежность. Качество. Производство</h1>
+                                <p>Мы — ваш партнёр в создании высококачественной трикотажной одежды. От разработки
+                                    лекал до окрашивания полотна — всё под контролем опытных специалистов.</p>
                             </div>
 
                         </div>

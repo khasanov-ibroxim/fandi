@@ -32,16 +32,15 @@
 .a1_right_text{
     height: 50%;
     position: relative;
-    padding-top: 150px;
+    padding-top: 120px;
 }
 .a1_right h1{
-    font-size: 90px;
+    font-size: 40px;
     font-weight: 700;
     color: black;
     position: absolute;
     left: -100px;
     top: 0;
-    text-wrap: nowrap;
 }
 .a1_right p{
     font-size: 16px;

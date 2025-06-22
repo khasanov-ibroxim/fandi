@@ -15,9 +15,9 @@ const HomeS6 = () => {
             <div className="home_s6_title">
                 <div className="subtitle_box">
                     <span></span>
-                    <h2>Our Blog</h2>
+                    <h2>Блог о производстве</h2>
                 </div>
-                <h1>Watch Our Latest Blog</h1>
+                <h1>Новости, идеи и экспертные советы</h1>
             </div>
 
 

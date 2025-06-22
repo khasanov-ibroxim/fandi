@@ -23,7 +23,7 @@ const Footer = () => {
                         <div className="col-12 col-md-6 col-lg-4 mb-4">
                             <div className="subtitle_box">
                                 <span style={{background: "white"}}></span>
-                                <h2 style={{color: "white"}}>О нас</h2>
+                                <h2 style={{color: "white"}}>Контакты</h2>
                             </div>
                             <div className="footer_item_1_box d-flex flex-column flex-md-row g-4 mt-3">
                                 <div className="footer_item_1 me-md-5 mb-3 mb-md-0">
@@ -39,7 +39,7 @@ const Footer = () => {
                         <div className="col-12 col-md-6 col-lg-2 mb-4">
                             <div className="subtitle_box">
                                 <span style={{background: "white"}}></span>
-                                <h2 style={{color: "white"}}>Our About</h2>
+                                <h2 style={{color: "white"}}>О нас</h2>
                             </div>
                             <div className="footer_item_2_box d-flex justify-content-between mt-3">
                                 <ul className="p-0 m-0">
@@ -59,7 +59,7 @@ const Footer = () => {
                         <div className="col-12 col-md-6 col-lg-4 mb-4 d-flex flex-column align-items-center ">
                             <div className="subtitle_box">
                                 <span style={{background: "white"}}></span>
-                                <h2 style={{color: "white"}}>Our About</h2>
+                                <h2 style={{color: "white"}}>Контакты</h2>
                             </div>
                             <div className="footer_item_3_box mt-3">
                                 <a href={"tel:+998337004000"} className={"tell"}>+998337004000</a>
