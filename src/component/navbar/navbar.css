@@ -1,8 +1,8 @@
-nav{
+nav {
     padding-top: 50px;
-    padding-bottom: 20px;
 }
-.navbar{
+
+.navbar {
     width: 100%;
     height: 80px;
     border-top: 1px solid rgb(213, 213, 213);
@@ -10,29 +10,37 @@ nav{
     display: flex;
     justify-content: space-between;
     position: fixed;
+    padding: 0;
 }
-.nav_logo{
+
+.nav_logo {
     padding-left: 10px;
 }
-.nav_logo , .nav_btn{
+
+.nav_logo, .nav_btn {
     width: 15%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.nav_logo img{
+
+.nav_logo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.nav_menu{
+
+.nav_menu {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
+
+    height: 100%;
 }
-.nav_menu ul{
+
+.nav_menu ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,19 +48,22 @@ nav{
     gap: 30px;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
-.nav_menu ul li a{
+
+.nav_menu ul li a, .production_link {
     text-decoration: none;
     color: #000;
     font-weight: 700;
     transition: .4s;
     text-wrap: nowrap;
 }
-.nav_menu ul li:hover a{
+
+.nav_menu ul li:hover a {
     color: #c3002f;
 }
 
-.nav_btn button{
+.nav_btn button {
     border-radius: 20px;
     background: #c3002f;
     outline: none;
@@ -66,52 +77,142 @@ nav{
     transition: .4s;
     text-wrap: nowrap;
 }
-.nav_btn button:hover{
+
+.nav_btn button:hover {
     background: #000;
 }
 
-.navburger{
+.navburger {
     display: none;
 }
 
-@media screen and (max-width: 1000px){
-    .navbar{
+.production_link {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.production_link:hover {
+    color: #c3002f;
+}
+
+.production_submenu {
+    position: absolute;
+    min-width: 300px;
+    top: 100%;
+    left: 0;
+    background: #FEF8F0;
+    z-index: 23;
+    border-top: 3px solid #c3002f;
+    list-style: none;
+    padding: 15px 30px 0 30px;
+    width: 280px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.production_link:hover .production_submenu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.production_submenu li {
+    border-bottom: 1px solid #ccc;
+    padding:10px 0;
+}
+
+.production_submenu li a {
+    color: black !important;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.production_submenu li:hover a {
+    color: #c3002f !important;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar {
         justify-content: space-between;
         align-items: center;
     }
-    .navburger{
+
+    .navburger {
         display: flex;
 
     }
-    .nav_menu{
+
+    .nav_menu {
         display: none;
     }
-    .nav_menu.open{
+
+    .nav_menu.open {
         display: flex;
     }
-    .nav_logo{
+
+    .nav_logo {
         padding-left: 20px;
         justify-content: flex-start;
     }
-    .nav_logo , .nav_btn{
+
+    .nav_logo, .nav_btn {
         width: 45%;
     }
-    .nav_logo img{
+
+    .nav_logo img {
         width: 60%;
     }
-    .nav_btn{
+
+    .nav_btn {
         justify-content: flex-end;
         padding-right: 20px;
     }
-    .nav_menu{
+
+    .nav_menu {
         position: absolute;
         width: 100%;
         top: 80px;
-        background:#FEF8F0 ;
-        height: 50vh;
+        background: #FEF8F0;
+        height: max-content;
         transition: .4s;
+        z-index: 99;
+        padding: 50px 0;
+        box-shadow: 0 1px  5px rgba(0,0,0,.5);
     }
-    .nav_menu ul{
+
+    .nav_menu ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .production_submenu {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        padding-left: 10px;
+        display: none;
+        background: transparent;
+        border-top: none;
+        width: auto;
+    }
+
+    .production_submenu.open {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .production_link {
+        cursor: pointer;
+        height: max-content;
         flex-direction: column;
     }
 }

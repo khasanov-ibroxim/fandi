@@ -70,6 +70,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    text-decoration: none;
 }
 .h_s3_top_left{
     width: 30%;
@@ -99,6 +100,7 @@
 }
 .h_s3_top_right svg{
     font-size: 40px;
+    color: black;
 }
 
 .h_s3_bottom{

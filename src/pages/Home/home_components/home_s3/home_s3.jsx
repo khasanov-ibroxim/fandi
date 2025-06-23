@@ -8,6 +8,9 @@ import img_2 from "@/assets/home/home_s3/portfolio2-1140x480.jpg"
 import img_3 from "@/assets/home/home_s3/portfolio3-1140x480.jpg"
 import {Autoplay} from "swiper/modules";
 
+import {Link} from "react-router-dom"
+import {PRODUCTION} from "@/utils/constes.jsx";
+
 const HomeS3 = () => {
     return (
         <div className={"home_s3"}>
@@ -32,7 +35,7 @@ const HomeS3 = () => {
                     <Swiper loop={true} modules={[Autoplay]} autoplay={{delay: 3000}} className={"home_s3_swiper"}>
                         <SwiperSlide>
                             <div className="home_s3_box_content_item">
-                                <div className="h_s3_top">
+                                <Link to={PRODUCTION.replace(":id" , 1)} onClick={()=>window.scrollTo("top")} className="h_s3_top">
                                     <div className="h_s3_top_left">
                                         <h1>Закройный цех</h1>
                                     </div>
@@ -42,7 +45,7 @@ const HomeS3 = () => {
                                             что обеспечивает высокую точность и минимальный расход материала.</p>
                                         <ArrowForwardIcon/>
                                     </div>
-                                </div>
+                                </Link>
                                 <div className="h_s3_bottom">
                                     <img src={img_1} alt=""/>
                                 </div>
@@ -50,7 +53,7 @@ const HomeS3 = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="home_s3_box_content_item">
-                                <div className="h_s3_top">
+                                <Link to={PRODUCTION.replace(":id" , 2)} onClick={()=>window.scrollTo("top")} className="h_s3_top">
                                     <div className="h_s3_top_left">
                                         <h1>Швейный цех</h1>
 
@@ -61,7 +64,7 @@ const HomeS3 = () => {
                                             обеспечиваем стабильное качество и высокую скорость пошива.</p>
                                         <ArrowForwardIcon/>
                                     </div>
-                                </div>
+                                </Link>
                                 <div className="h_s3_bottom">
                                     <img src={img_2} alt=""/>
                                 </div>
@@ -69,7 +72,7 @@ const HomeS3 = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="home_s3_box_content_item">
-                                <div className="h_s3_top">
+                                <Link to={PRODUCTION.replace(":id" , 3)} onClick={()=>window.scrollTo("top")} className="h_s3_top">
                                     <div className="h_s3_top_left">
                                         <h1>Контроль качества</h1>
 
@@ -80,7 +83,7 @@ const HomeS3 = () => {
                                             точностью исполнения всех требований заказчика.</p>
                                         <ArrowForwardIcon/>
                                     </div>
-                                </div>
+                                </Link>
                                 <div className="h_s3_bottom">
                                     <img src={img_3} alt=""/>
                                 </div>
@@ -88,7 +91,7 @@ const HomeS3 = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="home_s3_box_content_item">
-                                <div className="h_s3_top">
+                                <Link to={PRODUCTION.replace(":id" , 4)} onClick={()=>window.scrollTo("top")} className="h_s3_top">
                                     <div className="h_s3_top_left">
                                         <h1>Гладильно-упаковочный цех</h1>
 
@@ -99,7 +102,7 @@ const HomeS3 = () => {
                                             продукции и её готовность к отгрузке.</p>
                                         <ArrowForwardIcon/>
                                     </div>
-                                </div>
+                                </Link>
                                 <div className="h_s3_bottom">
                                     <img src={img_1} alt=""/>
                                 </div>

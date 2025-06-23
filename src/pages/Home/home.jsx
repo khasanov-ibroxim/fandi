@@ -10,18 +10,20 @@ import Home_s6 from "@/pages/Home/home_components/home_s6/home_s6.jsx";
 
 const Home = () => {
     return (
-        <div className={"main_container"}>
-            <div className="container-fluid">
-                <Home_header/>
-                <Home_s1/>
-
+        <>
+            <div className={"main_container"}>
+                <div className="container-fluid">
+                    <Home_header/>
+                    <Home_s1/>
+                </div>
+                <Home_s2/>
+                <Home_s3/>
+                <Home_s4/>
+                <Home_s5/>
+                <Home_s6/>
             </div>
-            <Home_s2/>
-            <Home_s3/>
-            <Home_s4/>
-            <Home_s5/>
-            <Home_s6/>
-        </div>
+        </>
+
     );
 };
 
