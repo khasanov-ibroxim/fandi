@@ -44,7 +44,7 @@ const ProductionS2 = ({item}) => {
                         </div>
                         <div className="s2_bottom_item_body">
                             <p>{itemBottom.p}</p>
-                            <Link to={"#"}>Read More +</Link>
+                            <Link to={"#"}>Свяжитесь</Link>
                         </div>
                     </div>
                 ))}

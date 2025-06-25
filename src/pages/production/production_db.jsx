@@ -14,58 +14,58 @@ export const Production_db = [
         title_name: "Закройный цех",
         top_right: {
             top_img: p_1_right,
-            subtitle: "fabric Printing",
-            title: "Stitch fabric",
-            p: "In the textile arts, a stitch is a single turn or loop of thread, or yarn. Stitches are the fundamental elements of sewing, knitting, embroidery, crochet, and needle lace-making, whether by hand or machine. A variety of stitches, each with one or more names, are used for specific purposes.",
-            list_title: "Design Development",
-            list: ["Trends the Current Market in Design", "The rayon fabrics wholesaler is available.", "The Global fabrics distributor is done."]
+            subtitle: "FANDI TEKS",
+            title: "Точность начинается с кроя",
+            p: "Наш закройный цех оснащён современным оборудованием, обеспечивающим высокую точность и скорость обработки материалов. Все лекала разрабатываются с учётом требований заказчика и особенностей ткани. Благодаря строгому контролю на этапе раскроя мы достигаем идеальной посадки готовых изделий.",
+            list_title: "Крой без ошибок",
+            list: ["Применяем автоматизированные системы раскроя и цифровые лекала. ", "Оптимизируем расход ткани для снижения себестоимости. ", "Гарантируем точность размеров и соответствие техническим требованиям. "]
         },
         top_bottom: [
             {
                 icon: icon1,
-                title: "Fabric Design",
-                subtitle: "Manufacture",
-                p: "It is the process of transfer dyes from the aqueous solution to the fiber surface"
+                title: "Идеальный крой",
+                subtitle: "Точность",
+                p: "Обеспечивают максимальную точность при массовом производстве."
             },
             {
                 icon: icon2,
-                title: "Stitch Fabric",
-                subtitle: "Fabric Printing",
-                p: "Stitches are the fundamental elements of sewing, knitting and lace-making"
+                title: "Цифровой раскрой",
+                subtitle: "Скорость",
+                p: "Снижает вероятность ошибок и ускоряет подготовительный этап."
             },
             {
                 icon: icon3,
-                title: "Decoration Art",
-                subtitle: "Fabric Dyeing",
-                p: "It is the process of transfer dyes from the aqueous solution to the fiber surface"
+                title: "Контроль качества",
+                subtitle: "Надёжность",
+                p: "Каждая деталь проверяется перед отправкой в пошив."
             }
         ],
         tabs: [
             {
                 id: 1,
-                title: "Fabric Dyeing",
+                title: "Технологичный подход",
                 tab_img: p_1_right,
-                p: ["Bacteria and fungi can degrade textiles in many ways. Repeated washing also negatively affects the lifecycle and speeds up degradation. When laundering a product less because it is made with antimicrobial fabric, you extend the life of the product.",
-                    "Micro-organisms and odors can have a destructive effect on clothing and other products. Microban® antimicrobial technologies work hard so you don’t have to worry. Contact us today to learn how Microban echnology can provided added value to your products and consumers."
+                p: ["Мы используем современное оборудование и цифровые технологии на всех этапах производства. Это позволяет нам обеспечить стабильное качество и высокую скорость выполнения заказов.",
+                    "Благодаря автоматизации процессов мы сокращаем количество ошибок и минимизируем потери материала. Такой подход делает наш цех максимально эффективным и гибким."
                 ]
             },
             {
                 id: 2,
-                title: "Digital Printing",
+                title: "Качество лекал",
                 tab_img: p_1_right,
-                p: ["Antimicrobial fabric stays cleaner for longer and in between washings. If a towel stinks less, you will wash it less because it maintains that “just laundered” feeling. New energy efficient washing practices do not get fabrics as clean. Adding antimicrobial product protection reduces the growth of odor causing microbes that remain on your clothes even after washing.This “permastink” or permanent odor build up in synthetic fabrics is a well-known concern within the apparel industry and the consumers. "]
+                p: ["Каждое лекало разрабатывается индивидуально с учётом модели, ткани и особенностей посадки. Мы уделяем внимание каждой детали, чтобы добиться идеального результата. Перед запуском в производство все лекала проходят проверку и корректировку. Это гарантирует точное соответствие изделия требованиям заказчика."]
             },
             {
                 id: 3,
-                title: "Fabric Treated",
+                title: "Оптимальный расход",
                 tab_img: p_1_right,
-                p: ["Sweat is a universal problem. When you sweat, the bacteria on your skin consumes the nutrients in your sweat and breaks it down, producing odor. Antimicrobial fabric inhibits the growth of unpleasant odors before they start on the garments by controlling bacterial growth.Given the propensity of odor buildup in performance wear, as they are often made from synthetic fabricsmany consumers have experienced the need to rewash clothing that did not wash clean and began to smell once the garment was on and warm.\n"]
+                p: ["Мы стремимся к максимально экономному использованию ткани без ущерба для качества. Наши специалисты тщательно рассчитывают раскладку материалов на этапе подготовки. Такая работа позволяет снижать себестоимость и повышать эффективность всего производственного цикла. Заказчик получает качественный продукт при оптимальных затратах."]
             },
             {
                 id: 4,
-                title: "Satin Weaving",
+                title: "Чёткий контроль",
                 tab_img: p_1_right,
-                p: ["Antimicrobial technology adds a durable defense barrier on fabric, which helps fight odor-causing bacteria, mold and mildew. This makes a product with antimicrobial fabric stay fresher longer so you can wear it with confidence. This lasting, continual protection against potentially harmful microbes lasts wash after wash.This “permastink” or permanent odor build up in synthetic fabrics is a well-known concern within the apparel industry and the consumers."]
+                p: ["Контроль начинается с первых этапов — от проверки ткани до сверки размеров и линий кроя. Это позволяет исключить брак и добиться высокого стандарта изделий. Каждая партия проходит финальный осмотр перед запуском в пошив. Мы уверены в результате, потому что контролируем процесс на каждом шаге."]
 
             }
         ]
@@ -75,58 +75,58 @@ export const Production_db = [
         title_name: "Швейный цех",
         top_right: {
             top_img: p_1_right,
-            subtitle: "fabric Printing",
-            title: "Stitch fabric",
-            p: "In the textile arts, a stitch is a single turn or loop of thread, or yarn. Stitches are the fundamental elements of sewing, knitting, embroidery, crochet, and needle lace-making, whether by hand or machine. A variety of stitches, each with one or more names, are used for specific purposes.",
-            list_title: "Design Development",
-            list: ["Trends the Current Market in Design", "The rayon fabrics wholesaler is available.", "The Global fabrics distributor is done."]
+            subtitle: "FANDI TEKS",
+            title: "Надёжный пошив",
+            p: "Наш швейный цех — это сочетание современных технологий и мастерства опытных специалистов. Каждый этап пошива проходит контроль качества для достижения идеального результата. Мы обеспечиваем стабильность, аккуратность и высокую скорость выполнения заказов.",
+            list_title: "Профессионализм в деталях",
+            list: ["Используем промышленное оборудование для разных типов тканей.", "Работаем с любыми объёмами — от малых серий до крупного производства.", "Контролируем качество каждого изделия перед упаковкой."]
         },
         top_bottom: [
             {
                 icon: icon1,
-                title: "Fabric Design",
-                subtitle: "Manufacture",
-                p: "It is the process of transfer dyes from the aqueous solution to the fiber surface"
+                title: "Чистый пошив",
+                subtitle: "Точность",
+                p: "Каждое изделие проходит тщательную обработку, включая внутренние швы и отделку"
             },
             {
                 icon: icon2,
-                title: "Stitch Fabric",
-                subtitle: "Fabric Printing",
-                p: "Stitches are the fundamental elements of sewing, knitting and lace-making"
+                title: "Надёжные материалы ",
+                subtitle: "Качество ",
+                p: "Используем качественные нитки, фурнитуру и расходники, подходящие к типу ткани"
             },
             {
                 icon: icon3,
-                title: "Decoration Art",
-                subtitle: "Fabric Dyeing",
-                p: "It is the process of transfer dyes from the aqueous solution to the fiber surface"
+                title: "Сильная команда",
+                subtitle: "Ответственный подход ",
+                p: "Каждое изделие контролируется вручную на финальном этапе перед упаковкой"
             }
         ],
         tabs: [
             {
                 id: 1,
-                title: "Fabric Dyeing",
+                title: "Современное оборудование",
                 tab_img: p_1_right,
-                p: ["Bacteria and fungi can degrade textiles in many ways. Repeated washing also negatively affects the lifecycle and speeds up degradation. When laundering a product less because it is made with antimicrobial fabric, you extend the life of the product.",
-                    "Micro-organisms and odors can have a destructive effect on clothing and other products. Microban® antimicrobial technologies work hard so you don’t have to worry. Contact us today to learn how Microban echnology can provided added value to your products and consumers."
+                p: ["Наш швейный цех оснащён промышленными машинами последнего поколения. Это обеспечивает высокую скорость пошива и безупречное качество строчек.",
+                    "Оборудование подходит для работы с различными типами тканей и фурнитуры. Мы легко адаптируемся под любые модели и требования заказчика."
                 ]
             },
             {
                 id: 2,
-                title: "Digital Printing",
+                title: "Опытные мастера",
                 tab_img: p_1_right,
-                p: ["Antimicrobial fabric stays cleaner for longer and in between washings. If a towel stinks less, you will wash it less because it maintains that “just laundered” feeling. New energy efficient washing practices do not get fabrics as clean. Adding antimicrobial product protection reduces the growth of odor causing microbes that remain on your clothes even after washing.This “permastink” or permanent odor build up in synthetic fabrics is a well-known concern within the apparel industry and the consumers. "]
+                p: ["Весь процесс пошива выполняется профессиональной командой с многолетним стажем. Каждый шов — результат точной и выверенной работы. Наши мастера умеют работать как с массовыми заказами, так и с индивидуальными, сложными изделиями. Мы гарантируем стабильное качество вне зависимости от объёмов."]
             },
             {
                 id: 3,
-                title: "Fabric Treated",
+                title: "Контроль сборки",
                 tab_img: p_1_right,
-                p: ["Sweat is a universal problem. When you sweat, the bacteria on your skin consumes the nutrients in your sweat and breaks it down, producing odor. Antimicrobial fabric inhibits the growth of unpleasant odors before they start on the garments by controlling bacterial growth.Given the propensity of odor buildup in performance wear, as they are often made from synthetic fabricsmany consumers have experienced the need to rewash clothing that did not wash clean and began to smell once the garment was on and warm.\n"]
+                p: ["На всех этапах пошива проводится промежуточный контроль изделий. Это помогает сразу выявлять и устранять малейшие отклонения от стандарта. Благодаря этому подходу мы избегаем переделок и добиваемся идеального внешнего вида продукции. Конечный результат всегда соответствует ожиданиям клиента."]
             },
             {
                 id: 4,
-                title: "Satin Weaving",
+                title: "Чистая отделка",
                 tab_img: p_1_right,
-                p: ["Antimicrobial technology adds a durable defense barrier on fabric, which helps fight odor-causing bacteria, mold and mildew. This makes a product with antimicrobial fabric stay fresher longer so you can wear it with confidence. This lasting, continual protection against potentially harmful microbes lasts wash after wash.This “permastink” or permanent odor build up in synthetic fabrics is a well-known concern within the apparel industry and the consumers."]
+                p: ["Особое внимание уделяется аккуратной отделке швов, кантов и декоративных элементов. Мы следим за тем, чтобы изделие выглядело профессионально как снаружи, так и внутри. Каждая единица продукции проходит финальную обработку и проверку перед упаковкой. Это делает нашу одежду не только красивой, но и долговечной в носке."]
 
             }
         ]
@@ -136,58 +136,58 @@ export const Production_db = [
         title_name: "Контроль качества",
         top_right: {
             top_img: p_1_right,
-            subtitle: "fabric Printing",
-            title: "Stitch fabric",
-            p: "In the textile arts, a stitch is a single turn or loop of thread, or yarn. Stitches are the fundamental elements of sewing, knitting, embroidery, crochet, and needle lace-making, whether by hand or machine. A variety of stitches, each with one or more names, are used for specific purposes.",
-            list_title: "Design Development",
-            list: ["Trends the Current Market in Design", "The rayon fabrics wholesaler is available.", "The Global fabrics distributor is done."]
+            subtitle: "FANDI TEKS",
+            title: "Надёжный результат",
+            p: "Мы строго контролируем качество на всех этапах производства — от кроя до упаковки. Каждое изделие проходит ручную и техническую проверку на соответствие стандартам. Такой подход позволяет нам гарантировать стабильный результат и высокое доверие заказчиков.",
+            list_title: "Каждый шаг важен",
+            list: [" Проверка изделий на каждом этапе швейного процесса.", "Оценка точности размеров, качества швов и отделки.", "Финальный осмотр перед упаковкой и отправкой."]
         },
         top_bottom: [
             {
                 icon: icon1,
-                title: "Fabric Design",
-                subtitle: "Manufacture",
-                p: "It is the process of transfer dyes from the aqueous solution to the fiber surface"
+                title: "Чёткий контроль",
+                subtitle: "Надёжность",
+                p: "Контроль осуществляется на каждом этапе — от кроя до финальной отделки."
             },
             {
                 icon: icon2,
-                title: "Stitch Fabric",
-                subtitle: "Fabric Printing",
-                p: "Stitches are the fundamental elements of sewing, knitting and lace-making"
+                title: "Надёжная проверка",
+                subtitle: "Точность",
+                p: "Проверяем соответствие размеров, посадки и симметрии изделия."
             },
             {
                 icon: icon3,
-                title: "Decoration Art",
-                subtitle: "Fabric Dyeing",
-                p: "It is the process of transfer dyes from the aqueous solution to the fiber surface"
+                title: "Гарантия результата",
+                subtitle: "Уверенность",
+                p: "Перед упаковкой изделие проходит ручной осмотр на наличие дефектов."
             }
         ],
         tabs: [
             {
                 id: 1,
-                title: "Fabric Dyeing",
+                title: "Многоступенчатый контроль",
                 tab_img: p_1_right,
-                p: ["Bacteria and fungi can degrade textiles in many ways. Repeated washing also negatively affects the lifecycle and speeds up degradation. When laundering a product less because it is made with antimicrobial fabric, you extend the life of the product.",
-                    "Micro-organisms and odors can have a destructive effect on clothing and other products. Microban® antimicrobial technologies work hard so you don’t have to worry. Contact us today to learn how Microban echnology can provided added value to your products and consumers."
+                p: ["На каждом этапе производства проводится тщательная проверка изделий. Мы контролируем качество кроя, пошива, отделки и упаковки.",
+                    "Это позволяет выявлять возможные дефекты ещё до перехода к следующему этапу. Благодаря такому подходу мы обеспечиваем стабильное качество всей продукции."
                 ]
             },
             {
                 id: 2,
-                title: "Digital Printing",
+                title: "Точные измерения",
                 tab_img: p_1_right,
-                p: ["Antimicrobial fabric stays cleaner for longer and in between washings. If a towel stinks less, you will wash it less because it maintains that “just laundered” feeling. New energy efficient washing practices do not get fabrics as clean. Adding antimicrobial product protection reduces the growth of odor causing microbes that remain on your clothes even after washing.This “permastink” or permanent odor build up in synthetic fabrics is a well-known concern within the apparel industry and the consumers. "]
+                p: ["Каждое изделие проверяется на соответствие размерам, лекалам и посадке. Мы используем измерительные шаблоны и точные инструменты. Контроль параметров помогает избежать ошибок при массовом пошиве. Это особенно важно для корпоративных и серийных заказов."]
             },
             {
                 id: 3,
-                title: "Fabric Treated",
+                title: "Финальная проверка",
                 tab_img: p_1_right,
-                p: ["Sweat is a universal problem. When you sweat, the bacteria on your skin consumes the nutrients in your sweat and breaks it down, producing odor. Antimicrobial fabric inhibits the growth of unpleasant odors before they start on the garments by controlling bacterial growth.Given the propensity of odor buildup in performance wear, as they are often made from synthetic fabricsmany consumers have experienced the need to rewash clothing that did not wash clean and began to smell once the garment was on and warm.\n"]
+                p: ["Перед упаковкой каждое изделие проходит ручной осмотр. Наши специалисты проверяют швы, строчки, фурнитуру и чистоту изделия. Это последний рубеж качества перед отправкой клиенту. Мы гарантируем, что заказчик получает только полностью готовую и проверенную продукцию."]
             },
             {
                 id: 4,
-                title: "Satin Weaving",
+                title: "Стандарты качества",
                 tab_img: p_1_right,
-                p: ["Antimicrobial technology adds a durable defense barrier on fabric, which helps fight odor-causing bacteria, mold and mildew. This makes a product with antimicrobial fabric stay fresher longer so you can wear it with confidence. This lasting, continual protection against potentially harmful microbes lasts wash after wash.This “permastink” or permanent odor build up in synthetic fabrics is a well-known concern within the apparel industry and the consumers."]
+                p: ["Мы придерживаемся высоких стандартов внутреннего контроля. Все изделия соответствуют техническим условиям и ожиданиям заказчика. Каждый сотрудник вовлечён в процесс обеспечения качества. Это наша философия и залог доверия со стороны партнёров."]
 
             }
         ]
@@ -197,58 +197,58 @@ export const Production_db = [
         title_name: "Гладильно-упаковочный цех",
         top_right: {
             top_img: p_1_right,
-            subtitle: "fabric Printing",
-            title: "Stitch fabric",
-            p: "In the textile arts, a stitch is a single turn or loop of thread, or yarn. Stitches are the fundamental elements of sewing, knitting, embroidery, crochet, and needle lace-making, whether by hand or machine. A variety of stitches, each with one or more names, are used for specific purposes.",
-            list_title: "Design Development",
-            list: ["Trends the Current Market in Design", "The rayon fabrics wholesaler is available.", "The Global fabrics distributor is done."]
+            subtitle: "FANDI TEKS",
+            title: "Финиш",
+            p: "Гладильно-упаковочный цех — заключительный, но не менее важный этап производства. Здесь изделия приобретают товарный вид: их отпаривают, выравнивают и аккуратно упаковывают. Мы придаём особое значение чистоте, аккуратности и презентабельности каждой вещи.",
+            list_title: "Идеальная подача",
+            list: [" Используем профессиональное оборудование для отпаривания и глажки.", "Каждое изделие тщательно проверяется перед упаковкой.", "Продукция упаковывается в соответствии с требованиями клиента."]
         },
         top_bottom: [
             {
                 icon: icon1,
-                title: "Fabric Design",
-                subtitle: "Manufacture",
-                p: "It is the process of transfer dyes from the aqueous solution to the fiber surface"
+                title: "Финальный штрих",
+                subtitle: "Безупречная глажка",
+                p: " Отпаривание проводится с учётом типа ткани и кроя, чтобы сохранить форму изделия."
             },
             {
                 icon: icon2,
-                title: "Stitch Fabric",
-                subtitle: "Fabric Printing",
-                p: "Stitches are the fundamental elements of sewing, knitting and lace-making"
+                title: "Точная укладка",
+                subtitle: "Аккуратная упаковка",
+                p: "Каждое изделие складывается вручную и помещается в индивидуальную упаковку."
             },
             {
                 icon: icon3,
-                title: "Decoration Art",
-                subtitle: "Fabric Dyeing",
-                p: "It is the process of transfer dyes from the aqueous solution to the fiber surface"
+                title: "Готовый товар",
+                subtitle: "Готовность к отправке",
+                p: "Упакованная продукция сортируется и подготавливается к отгрузке."
             }
         ],
         tabs: [
             {
                 id: 1,
-                title: "Fabric Dyeing",
+                title: "Профессиональная глажка",
                 tab_img: p_1_right,
-                p: ["Bacteria and fungi can degrade textiles in many ways. Repeated washing also negatively affects the lifecycle and speeds up degradation. When laundering a product less because it is made with antimicrobial fabric, you extend the life of the product.",
-                    "Micro-organisms and odors can have a destructive effect on clothing and other products. Microban® antimicrobial technologies work hard so you don’t have to worry. Contact us today to learn how Microban echnology can provided added value to your products and consumers."
+                p: ["Изделия проходят бережную обработку на промышленном отпаривательном и гладильном оборудовании. Мы учитываем особенности кроя и тип ткани, чтобы сохранить форму и структуру изделия.",
+                    "Каждое изделие проверяется после глажки на наличие складок и дефектов. В результате одежда выглядит аккуратно, опрятно и полностью готова к продаже или отгрузке."
                 ]
             },
             {
                 id: 2,
-                title: "Digital Printing",
+                title: "Чистая упаковка",
                 tab_img: p_1_right,
-                p: ["Antimicrobial fabric stays cleaner for longer and in between washings. If a towel stinks less, you will wash it less because it maintains that “just laundered” feeling. New energy efficient washing practices do not get fabrics as clean. Adding antimicrobial product protection reduces the growth of odor causing microbes that remain on your clothes even after washing.This “permastink” or permanent odor build up in synthetic fabrics is a well-known concern within the apparel industry and the consumers. "]
+                p: ["Все изделия перед упаковкой проходят финальную проверку на чистоту и внешний вид. Мы обеспечиваем стерильность и аккуратность обработки на этом этапе. Используем индивидуальные пакеты, коробки или вешалки по запросу заказчика. Такой подход сохраняет товарный вид продукции до момента доставки."]
             },
             {
                 id: 3,
-                title: "Fabric Treated",
+                title: "Удобная сортировка",
                 tab_img: p_1_right,
-                p: ["Sweat is a universal problem. When you sweat, the bacteria on your skin consumes the nutrients in your sweat and breaks it down, producing odor. Antimicrobial fabric inhibits the growth of unpleasant odors before they start on the garments by controlling bacterial growth.Given the propensity of odor buildup in performance wear, as they are often made from synthetic fabricsmany consumers have experienced the need to rewash clothing that did not wash clean and began to smell once the garment was on and warm.\n"]
+                p: ["После упаковки изделия сортируются по размерам, моделям или артикулам. Это упрощает дальнейшую логистику и работу с заказами. Каждая партия сопровождается маркировкой и документацией. Благодаря этому мы обеспечиваем точность поставок и удобство для клиента."]
             },
             {
                 id: 4,
-                title: "Satin Weaving",
+                title: "Готовность к отгрузке",
                 tab_img: p_1_right,
-                p: ["Antimicrobial technology adds a durable defense barrier on fabric, which helps fight odor-causing bacteria, mold and mildew. This makes a product with antimicrobial fabric stay fresher longer so you can wear it with confidence. This lasting, continual protection against potentially harmful microbes lasts wash after wash.This “permastink” or permanent odor build up in synthetic fabrics is a well-known concern within the apparel industry and the consumers."]
+                p: ["На заключительном этапе продукция комплектуется по заказам и готовится к отгрузке. Мы соблюдаем все условия хранения и упаковки. Вся продукция аккуратно упакована, защищена и готова к транспортировке. Это позволяет заказчику получить изделие в идеальном виде."]
 
             }
         ]
