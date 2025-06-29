@@ -9,7 +9,7 @@ const ProductionS2 = ({item}) => {
             <div className="s2_top">
                 <div className="row">
                     <div className="col-lg-6">
-                        <img src={item.top_right.top_img} alt=""/>
+                        <div className="s2_top_img" style={item.top_right.top_img_style}></div>
                     </div>
                     <div className="col-lg-6">
                         <div className="s2_top_right">

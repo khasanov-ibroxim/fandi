@@ -3,9 +3,10 @@ import "./home_s3.css"
 import {Swiper, SwiperSlide} from "swiper/react";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
-import img_1 from "@/assets/home/home_s3/portfolio1-1140x480.jpg"
-import img_2 from "@/assets/home/home_s3/portfolio2-1140x480.jpg"
-import img_3 from "@/assets/home/home_s3/portfolio3-1140x480.jpg"
+import img_1 from "@/assets/home/home_s3/0B0A4585.jpg"
+import img_2 from "@/assets/home/home_s3/0B0A4600.jpg"
+import img_3 from "@/assets/home/home_s3/0B0A4666.jpg"
+import img_4 from "@/assets/home/home_s3/0B0A4754.jpg"
 import {Autoplay} from "swiper/modules";
 
 import {Link} from "react-router-dom"
@@ -46,8 +47,8 @@ const HomeS3 = () => {
                                         <ArrowForwardIcon/>
                                     </div>
                                 </Link>
-                                <div className="h_s3_bottom">
-                                    <img src={img_1} alt=""/>
+                                <div className="h_s3_bottom"  style={{background:`url(${img_4}) bottom no-repeat`, backgroundSize:"cover"}}>
+
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -65,8 +66,8 @@ const HomeS3 = () => {
                                         <ArrowForwardIcon/>
                                     </div>
                                 </Link>
-                                <div className="h_s3_bottom">
-                                    <img src={img_2} alt=""/>
+                                <div className="h_s3_bottom"  style={{background:`url(${img_1}) bottom no-repeat`, backgroundSize:"cover"}}>
+
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -84,8 +85,8 @@ const HomeS3 = () => {
                                         <ArrowForwardIcon/>
                                     </div>
                                 </Link>
-                                <div className="h_s3_bottom">
-                                    <img src={img_3} alt=""/>
+                                <div className="h_s3_bottom"  style={{background:`url(${img_3}) bottom no-repeat`, backgroundSize:"cover"}}>
+
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -103,8 +104,8 @@ const HomeS3 = () => {
                                         <ArrowForwardIcon/>
                                     </div>
                                 </Link>
-                                <div className="h_s3_bottom">
-                                    <img src={img_1} alt=""/>
+                                <div className="h_s3_bottom" style={{background:`url(${img_2}) bottom no-repeat`, backgroundSize:"cover"}}>
+
                                 </div>
                             </div>
                         </SwiperSlide>
