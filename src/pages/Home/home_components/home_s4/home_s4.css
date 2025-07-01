@@ -2,8 +2,8 @@
     margin-top: 100px;
 }
 .home_s4_box{
-    background: url("@/assets/home/home_s4/ctaimg.png");
-    height: 500px;
+    background: url("@/assets/home/home_s4/0B0A4798.jpg") bottom no-repeat;
+    height: 700px;
     background-size: cover;
     display: flex;
     justify-content: space-between;
@@ -12,7 +12,7 @@
     border-radius: 20px;
 }
 .home_s4_left h1{
-    font-size: 116px;
+    font-size: 75px;
     font-weight: 700;
     color: #fff;
 }
@@ -22,7 +22,7 @@
 }
 
 .home_s4_right{
-    width: 20%;
+    width: 30%;
 }
 .home_s4_right p{
     font-size: 16px;
@@ -36,8 +36,9 @@
 }
 .home_s4_contact_box{
     display: flex;
-    gap: 30px;
+    gap: 10px;
     align-items: center;
+    flex-wrap: wrap;
 }
 .home_s4_contact_box a{
     font-size: 20px;

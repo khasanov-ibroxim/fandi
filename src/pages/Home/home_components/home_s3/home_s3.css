@@ -122,7 +122,17 @@
 
 
 @media screen and (max-width: 1000px){
-    .home_s3_box_title{
+    .h_s3_top_right{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .h_s3_top_right p {
+        width: 100%;
+    }
+    .home_s4_contact_box{
+        flex-wrap: wrap;
+    }
+        .home_s3_box_title{
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
