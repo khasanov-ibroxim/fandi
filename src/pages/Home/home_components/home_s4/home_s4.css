@@ -19,10 +19,18 @@
 
 .home_s4_left{
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
 }
 
 .home_s4_right{
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
 }
 .home_s4_right p{
     font-size: 16px;
@@ -37,8 +45,9 @@
 .home_s4_contact_box{
     display: flex;
     gap: 10px;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 .home_s4_contact_box a{
     font-size: 20px;

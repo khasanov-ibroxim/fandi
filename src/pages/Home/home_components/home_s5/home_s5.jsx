@@ -7,10 +7,20 @@ import quote from "@/assets/home/home_s5/quote.svg";
 const HomeS5 = () => {
     const [activeIndex, setActiveIndex] = useState(0);
 
+    const testimonialArray = [
+        `Работаем с FANDI TEKS уже второй год — всегда чётко, вовремя и без переделок. Отличное качество пошива и отзывчивый подход к каждому заказу.`,
+        `Очень довольны сотрудничеством! Быстро поняли наш стиль и требования, всё реализовано точно и аккуратно. Настоящие профессионалы.`,
+        `FANDI TEKS приятно удивили — слаженный процесс от разработки модели до упаковки. Всегда на связи, всегда с решением.`,
+        `Понравилось внимание к деталям. Даже сложные технические задания были выполнены качественно. Планируем продолжать сотрудничество.`,
+        `Отличный производственный партнёр: гибкий, надёжный и современный. Всё, что нужно бренду, который ценит стабильность.`,
+        `Были приятно удивлены качеством детской линии. Материалы, пошив и контроль соответствуют высоким стандартам — рекомендуем!`
+    ]
+
+
     return (
         <div className="home_s5">
             <div className="home_s5_title">
-                Testimonial
+                Отзывы
             </div>
             <Swiper
                 slidesPerView={"auto"}
@@ -34,7 +44,7 @@ const HomeS5 = () => {
                     },
                 }}
             >
-                {[...Array(4)].map((_, index) => (
+                {testimonialArray.map((item, index) => (
                     <SwiperSlide key={index}>
                         <div className={`home_s5_item ${activeIndex === index ? 'active' : ''}`}>
                             <div className="home_s5_item_top">
@@ -47,15 +57,9 @@ const HomeS5 = () => {
                                 </svg>
                             </div>
                             <div className="home_s5_item_body">
-                                {activeIndex === index && "active"}
-                                Fabiflex customer service is great. I was searching & found exactly what I wanted, was
-                                delivered quickly. Very good transaction. Fast shipping. Great blankets fabric and I am
-                                planning to buy it in bulk order.
+                                {item}
                             </div>
-                            <div className="home_s5_item_footer">
-                                <h1>Judy Wells</h1>
-                                <p>Customer</p>
-                            </div>
+
                         </div>
                     </SwiperSlide>
                 ))}
