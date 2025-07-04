@@ -95,7 +95,7 @@
     -webkit-mask-size: contain;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center center;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 @media screen  and (max-width: 1000px) {

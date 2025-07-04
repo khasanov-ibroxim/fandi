@@ -1,7 +1,8 @@
 .a3 {
     width: 100%;
     height: 60vh;
-    background: url("@/assets/home/home_s2/step2.jpg");
-    background-size: 100%;
+    background: url("@/assets/about/about_s3/0B0A4503.JPG") no-repeat 0px -200px;
+    background-size: cover;
     margin: 100px 0;
+    border-radius: 20px;
 }

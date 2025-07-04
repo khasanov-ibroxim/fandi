@@ -1,8 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom"
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import header_element from "@/assets/home/home_header/header_element.jpg"
-import user from "@/assets/home/home_header/user.png"
+import header_element from "@/assets/home/home_header/016A3172.jpg"
 import "./home_header.css"
 
 const HomeHeader = () => {

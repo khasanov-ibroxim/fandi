@@ -6,6 +6,7 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import {Link} from "react-router-dom"
+import {ABOUT, CONTACT, HOME, PRODUCTION} from "@/utils/constes.jsx";
 
 const Footer = () => {
     return (
@@ -39,19 +40,20 @@ const Footer = () => {
                         <div className="col-12 col-md-6 col-lg-2 mb-4">
                             <div className="subtitle_box">
                                 <span style={{background: "white"}}></span>
-                                <h2 style={{color: "white"}}>О нас</h2>
+                                <h2 style={{color: "white"}}>Меню</h2>
                             </div>
                             <div className="footer_item_2_box d-flex justify-content-between mt-3">
                                 <ul className="p-0 m-0">
-                                    <li><Link to="#">Home</Link></li>
-                                    <li><Link to="#">About us</Link></li>
-                                    <li><Link to="#">Services</Link></li>
-                                    <li><Link to="#">Blog</Link></li>
+                                    <li><Link to={HOME} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Главная</Link></li>
+                                    <li><Link to={ABOUT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>О нас</Link></li>
+                                    <li><Link to={PRODUCTION.replace(":id" , 1)} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Продукция</Link></li>
+                                    <li><Link to={CONTACT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Контакты</Link></li>
                                 </ul>
                                 <ul className="p-0 m-0">
-                                    <li><Link to="#">Privacy Policy</Link></li>
-                                    <li><Link to="#">FeedBacks</Link></li>
-                                    <li><Link to="#">Contact us</Link></li>
+                                    <li><Link to={PRODUCTION.replace(":id" , 1)} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Закройный цех</Link></li>
+                                    <li><Link to={PRODUCTION.replace(":id" , 2)} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Швейный цех</Link></li>
+                                    <li><Link to={PRODUCTION.replace(":id" , 3)} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Контроль качества</Link></li>
+                                    <li><Link to={PRODUCTION.replace(":id" , 4)} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Упаковочный цех</Link></li>
                                 </ul>
                             </div>
                         </div>

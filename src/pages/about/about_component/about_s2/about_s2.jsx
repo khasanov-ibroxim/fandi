@@ -4,7 +4,7 @@ import img_1 from "@/assets/about/about_s2/tkan.png"
 import img_2 from "@/assets/about/about_s2/izdeliya.png"
 import img_3 from "@/assets/about/about_s2/siryo.png"
 import img_4 from "@/assets/about/about_s2/volokna.png"
-import bgImg from "@/assets/about/about_s2/aboutsec1.png";
+import bgImg from "@/assets/about/about_s2/016A3192.JPG";
 import {Link} from "react-router-dom"
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import {CONTACT} from "@/utils/constes.jsx";

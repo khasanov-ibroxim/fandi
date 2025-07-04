@@ -36,7 +36,7 @@ const HomeS3 = () => {
                     <Swiper loop={true} modules={[Autoplay]} autoplay={{delay: 3000}} className={"home_s3_swiper"}>
                         <SwiperSlide>
                             <div className="home_s3_box_content_item">
-                                <Link to={PRODUCTION.replace(":id" , 1)} onClick={()=>window.scrollTo("top")} className="h_s3_top">
+                                <Link to={PRODUCTION.replace(":id" , 1)} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="h_s3_top">
                                     <div className="h_s3_top_left">
                                         <h1>Закройный цех</h1>
                                     </div>
@@ -54,7 +54,7 @@ const HomeS3 = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="home_s3_box_content_item">
-                                <Link to={PRODUCTION.replace(":id" , 2)} onClick={()=>window.scrollTo("top")} className="h_s3_top">
+                                <Link to={PRODUCTION.replace(":id" , 2)} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="h_s3_top">
                                     <div className="h_s3_top_left">
                                         <h1>Швейный цех</h1>
 
@@ -73,7 +73,7 @@ const HomeS3 = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="home_s3_box_content_item">
-                                <Link to={PRODUCTION.replace(":id" , 3)} onClick={()=>window.scrollTo("top")} className="h_s3_top">
+                                <Link to={PRODUCTION.replace(":id" , 3)} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="h_s3_top">
                                     <div className="h_s3_top_left">
                                         <h1>Контроль качества</h1>
 
@@ -92,7 +92,7 @@ const HomeS3 = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="home_s3_box_content_item">
-                                <Link to={PRODUCTION.replace(":id" , 4)} onClick={()=>window.scrollTo("top")} className="h_s3_top">
+                                <Link to={PRODUCTION.replace(":id" , 4)} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="h_s3_top">
                                     <div className="h_s3_top_left">
                                         <h1>Гладильно-упаковочный цех</h1>
 

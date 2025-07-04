@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
-import {ABOUT, CONTACT, HOME, PRODUCTION} from "@/utils/constes.jsx";
+import {ABOUT, CONTACT, HOME, PRODUCTION, PRODUCTS} from "@/utils/constes.jsx";
 
 const Navbar = () => {
     const [submenuOpen, setSubmenuOpen] = useState(false);
@@ -47,7 +47,7 @@ const Navbar = () => {
                             </ol>
                         </li>
 
-                        <li><Link to={"#"}>Блог</Link></li>
+                        <li><Link to={PRODUCTS}>Блог</Link></li>
                         <li><Link to={CONTACT}>Контакты</Link></li>
                     </ul>
                 </div>
