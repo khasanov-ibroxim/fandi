@@ -47,7 +47,7 @@ const Navbar = () => {
                             </ol>
                         </li>
 
-                        <li><Link to={PRODUCTS}>Блог</Link></li>
+                        <li><Link to={PRODUCTS}>Продукция</Link></li>
                         <li><Link to={CONTACT}>Контакты</Link></li>
                     </ul>
                 </div>
