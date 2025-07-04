@@ -8,7 +8,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import {Link} from "react-router-dom"
 
 
-import bgImg from '../../../../assets/home/home_s1/016A3238.jpg';
+import bgImg from '@/assets/home/home_s1/016A3238.jpg';
 
 
 
