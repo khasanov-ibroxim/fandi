@@ -61,7 +61,7 @@
     left: 35%;
     top: 10%;
     width: 30% !important;
-    height: 450px;
+    height: calc(100%/1.2);
     border-radius: 25px;
 }
 .home_header_element img{
@@ -121,6 +121,14 @@
     color: var(--desc_color);
     margin: 0;
 }
+
+@media screen and (max-width: 1250px){
+    .home_header_element{
+        width: 35% !important;
+        left: 30%;
+    }
+}
+
 @media screen and (max-width: 1000px){
     .home_header_element{
         display: none;

@@ -37,7 +37,7 @@ export const Production_db = [
         title_name: "Закройный цех",
         top_right: {
             top_img: p_1_top,
-            top_img_style:{background:`url(${p_1_top}) bottom no-repeat` , backgroundSize:"cover"},
+            top_img_style: {background: `url(${p_1_top}) bottom no-repeat`, backgroundSize: "contain"},
             subtitle: "FANDI TEKS",
             title: "Точность начинается с кроя",
             p: "Наш закройный цех оснащён современным оборудованием, обеспечивающим высокую точность и скорость обработки материалов. Все лекала разрабатываются с учётом требований заказчика и особенностей ткани. Благодаря строгому контролю на этапе раскроя мы достигаем идеальной посадки готовых изделий.",
@@ -99,7 +99,10 @@ export const Production_db = [
         title_name: "Швейный цех",
         top_right: {
             top_img: p_2_top,
-            top_img_style:{background:`url(${p_2_top}) center no-repeat` , backgroundSize:"100%" , height:"700px"},
+            top_img_style: {
+                background: `url(${p_2_top}) bottom no-repeat`,
+                backgroundSize: "contain",
+            },
             subtitle: "FANDI TEKS",
             title: "Надёжный пошив",
             p: "Наш швейный цех — это сочетание современных технологий и мастерства опытных специалистов. Каждый этап пошива проходит контроль качества для достижения идеального результата. Мы обеспечиваем стабильность, аккуратность и высокую скорость выполнения заказов.",
@@ -161,7 +164,7 @@ export const Production_db = [
         title_name: "Контроль качества",
         top_right: {
             top_img: p_3_top,
-            top_img_style:{background:`url(${p_3_top}) bottom no-repeat` , backgroundSize:"cover"},
+            top_img_style: {background: `url(${p_3_top}) bottom no-repeat`, backgroundSize: "contain"},
             subtitle: "FANDI TEKS",
             title: "Надёжный результат",
             p: "Мы строго контролируем качество на всех этапах производства — от кроя до упаковки. Каждое изделие проходит ручную и техническую проверку на соответствие стандартам. Такой подход позволяет нам гарантировать стабильный результат и высокое доверие заказчиков.",
@@ -223,7 +226,11 @@ export const Production_db = [
         title_name: "Гладильно-упаковочный цех",
         top_right: {
             top_img: p_4_top,
-            top_img_style:{background:`url(${p_4_top}) center center no-repeat` , backgroundSize:"100%" , height: "800px"},
+            top_img_style: {
+                background: `url(${p_4_top}) center center no-repeat`,
+                backgroundSize: "contain",
+
+            },
             subtitle: "FANDI TEKS",
             title: "Финиш",
             p: "Гладильно-упаковочный цех — заключительный, но не менее важный этап производства. Здесь изделия приобретают товарный вид: их отпаривают, выравнивают и аккуратно упаковывают. Мы придаём особое значение чистоте, аккуратности и презентабельности каждой вещи.",

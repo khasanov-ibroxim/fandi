@@ -47,8 +47,37 @@
     border-radius: 15px;
 }
 
-@media screen and (max-width: 600px){
-    .product_item{
+
+.products_tabs_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 50px 0;
+    gap: 20px;
+}
+
+.product_tab_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+
+.product_tab_item.active {
+    color: white;
+    background: #c3002f;
+}
+
+@media screen and (max-width: 600px) {
+    .product_item {
         height: 100%;
+    }
+    .products_tabs_box{
+        flex-wrap: wrap;
     }
 }

@@ -8,7 +8,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import {Link} from "react-router-dom"
 
 
-import bgImg from '../../../../assets/home/home_s1/016A3238.JPG';
+import bgImg from '../../../../assets/home/home_s1/016A3238.jpg';
 
 
 
@@ -48,7 +48,8 @@ const HomeS1 = () => {
                                 <p>Телефон</p>
                                 <div style={{
                                     display:"flex",
-                                    gap:"10px"
+                                    gap:"10px",
+                                    flexWrap:"wrap"
                                 }}>
                                     <a href="tel:+998337004000">+998337004000</a>
                                     <a href="tel:+998935718328">+998935718328</a>

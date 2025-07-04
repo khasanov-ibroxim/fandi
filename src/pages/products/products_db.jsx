@@ -28,8 +28,6 @@ import img_9_element from "@/assets/product/016A3148.JPG"
 import img_10 from "@/assets/product/016A3171.JPG"
 import img_10_element from "@/assets/product/016A3169.JPG"
 
-import img_11 from "@/assets/product/016A3172.JPG"
-import img_11_element from "@/assets/product/016A3190.JPG"
 
 
 import img_13 from "@/assets/product/016A3212.JPG"
@@ -58,61 +56,75 @@ import img_20_element from "@/assets/product/016A3318.JPG"
 
 export const Products_db = [
     {
-        img_path:[img_1 , img_1_element]
+        img_path:[img_1 , img_1_element],
+        cat_name:"women"
     },
     {
-        img_path:[img_2 , img_2_element]
+        img_path:[img_2 , img_2_element],
+        cat_name:"women"
     },
     {
-        img_path:[img_3 , img_3_element]
+        img_path:[img_3 , img_3_element],
+        cat_name:"men"
     },
     {
-        img_path:[img_4 , img_4_element]
+        img_path:[img_4 , img_4_element],
+        cat_name:"men"
     },
     {
-        img_path:[img_5 , img_5_element]
+        img_path:[img_5 , img_5_element],
+        cat_name:"women"
     },
     {
-        img_path:[img_6 , img_6_element]
+        img_path:[img_6 , img_6_element],
+        cat_name:"women"
     },
     {
-        img_path:[img_7 , img_7_element]
+        img_path:[img_7 , img_7_element],
+        cat_name:"men"
     },
     {
-        img_path:[img_8 , img_8_element]
+        img_path:[img_8 , img_8_element],
+        cat_name:"women"
     },
     {
-        img_path:[img_9 , img_9_element]
+        img_path:[img_9 , img_9_element],
+        cat_name:"men"
     },
     {
-        img_path:[img_10 , img_10_element]
+        img_path:[img_10 , img_10_element],
+        cat_name:"women"
     },
     {
-        img_path:[img_11 , img_11_element]
-    },
-
-    {
-        img_path:[img_13 , img_13_element]
+        img_path:[img_13 , img_13_element],
+        cat_name:"men"
     },
     {
-        img_path:[img_14 , img_14_element]
+        img_path:[img_14 , img_14_element],
+        cat_name:"women"
     },
     {
-        img_path:[img_15 , img_15_element]
+        img_path:[img_15 , img_15_element],
+        cat_name:"men"
     },
     {
-        img_path:[img_16 , img_16_element]
+        img_path:[img_16 , img_16_element],
+        cat_name:"women"
     },
     {
-        img_path:[img_17 , img_17_element]
+        img_path:[img_17 , img_17_element],
+        cat_name:"men"
     },
     {
-        img_path:[img_18 , img_18_element]
+        img_path:[img_18 , img_18_element],
+        cat_name:"women"
     },
     {
-        img_path:[img_19 , img_19_element]
+        img_path:[img_19 , img_19_element],
+        cat_name:"men"
     },
     {
-        img_path:[img_20 , img_20_element]
+        img_path:[img_20 , img_20_element],
+        cat_name:"men"
     },
 ]
